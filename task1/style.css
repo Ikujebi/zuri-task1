@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 3.2rem;
+    font: italic small-caps 600 2rem/2rem Ariel,sans-serif ;
+}
+
+img{
+    width: 60%;
+    height: 28rem;
+    outline: auto;
+    margin-left: 3.5rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main{
+    margin-left: 3rem;
+}
