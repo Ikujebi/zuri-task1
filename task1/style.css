@@ -4,22 +4,57 @@
     box-sizing: border-box;
 }
 
+.container{
+    height: 100svh;
+    margin-top: 0;
+    background: linear-gradient(#fff,#ccc);
+    overflow: auto;
+   
+}
+.container,.ok{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+   
+}
+.ok{
+    background-color: #fff;
+    background-image: url("./images/ZURI.jpeg");
+    width: 50rem;
+    height: 25rem;
+    padding: 10px;
+    gap: 1rem;
+    box-shadow: 0 3px 0 4px #CCC,0 6px 20px rgba(172, 255, 47, 0.315);
+}
+
 h1{
-    margin: 3.2rem;
+    margin: 3.4rem;
+    
     font: italic small-caps 600 2rem/2rem Ariel,sans-serif ;
+}
+.pic{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
 }
 
 img{
-    width: 60%;
-    height: 28rem;
-    outline: auto;
-    margin-left: 3.5rem;
+    width: 20rem;
+    height: 20rem;
+    outline: 1px #fff;
+    border-radius: 20%;
+    
+    /* slategray */
 }
 
 a{
     text-decoration: none;
+    color: greenyellow;
 }
 
 .main{
-    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.1rem;
 }
